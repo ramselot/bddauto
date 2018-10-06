@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="willu_Auth_UAT_CUCUMBER_TESTS" parallel="false">
+
+	<!-- <listeners> <listener class-name="com.bddtrkeye.listeners.Listenerclass"></listener> 
+		</listeners> -->
+	<test name="LOGIN_TEST">
+		<classes>
+
+			<class name="TestRunner.AuthRunner" />
+
+             <class name="TestRunner.Resend_verf_runner" />
+
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
