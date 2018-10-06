@@ -7,11 +7,12 @@
 	<test name="LOGIN_TEST">
 		<classes>
 
-			<class name="TestRunner.AuthRunner" />
+			<class name="TestRunner.AuthRunner"/>
 
-             <class name="TestRunner.Resend_verf_runner" />
+             <class name="TestRunner.Resend_verf_runner"/>
 
 		</classes>
 	</test> <!-- Test -->
 
 </suite> <!-- Suite -->
+
